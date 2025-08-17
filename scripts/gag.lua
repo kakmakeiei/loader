@@ -1,3 +1,10 @@
+if not game:IsLoaded() then
+	repeat
+		print("Wait Load...");
+		game.Loaded:Wait();
+	until game:IsLoaded();
+end;
+
 script_key="OhbqmypDxTbCLzOZiFpoLiCfqQBiLCAC";
 setfpscap(3)
 
@@ -16,7 +23,7 @@ getgenv().gagConfig = {
     ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
 
-    MAX_PLANTS = 300,
+    MAX_PLANTS = 250,
     DESTROY_UNTIL_MIN_PLANTS = 200,
     DELETE_PLANTS_AFTER_MAX = { "Carrot" },
     
