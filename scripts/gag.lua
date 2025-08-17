@@ -14,7 +14,8 @@ getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     MAX_EVENT_RESTOCK_SHECKLES = 100,  -- Restock stop at 48m
     BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan" },
-    
+    PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
+	
     -- General:
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
@@ -25,7 +26,7 @@ getgenv().gagConfig = {
 
     MAX_PLANTS = 250,
     DESTROY_UNTIL_MIN_PLANTS = 200,
-    DELETE_PLANTS_AFTER_MAX = { "Carrot" },
+    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Common Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg",  "Rare Egg", "Uncommon Egg" },
