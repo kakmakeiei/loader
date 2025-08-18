@@ -24,9 +24,9 @@ getgenv().gagConfig = {
     ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = true,
 
-    MAX_PLANTS = 100,
-    DESTROY_UNTIL_MIN_PLANTS = 75,
-    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple", "Coconut" },
+    MAX_PLANTS = 200,
+    DESTROY_UNTIL_MIN_PLANTS = 150,
+    DELETE_PLANTS_AFTER_MAX = { "Coconut" },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Common Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg",  "Rare Egg", "Uncommon Egg" },
@@ -46,8 +46,8 @@ getgenv().gagConfig = {
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Dairy Cow" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Dairy Cow" },
 
-    BUY_GEAR_SHOP = { "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
-    USE_SPRINKLER = { "Basic Sprinkler" },
+    BUY_GEAR_SHOP = { "Trading Ticket" },
+    USE_SPRINKLER = { },
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1399794265542099066/-YoD5ULkBsRIMg3u3K-FITLNjjdgSKS6gvSzl2eTl3xf74KqZnqQOeHgPG74GNt--SW1",
     SEED_WEBHOOK_URL = "", 
